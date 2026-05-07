@@ -1,3 +1,16 @@
+//check !nvidia-smi
+//if not 
+// !apt-get update
+//!apt-get install -y nvidia-cuda-toolkit
+//!nvcc --version
+//then %%writefile vector_add.cu
+// paste your CUDA vector addition code here
+//!nvcc vector_add.cu -o vector_add
+//!./vector_add
+
+
+
+
 #include <iostream>
 #include <cuda_runtime.h>
 using namespace std;
